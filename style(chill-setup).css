@@ -124,16 +124,8 @@ textarea {
   border-radius: 4px;
 }
 
-.display_one:active {
-  border: 3px yellow solid;
-}
-
 .display_one:focus {
-  border: 3px yellow solid;
-}
-
-.display_one:visited {
-  border: 3px yellow solid;
+  border: 3px red solid;
 }
 
 .display_one:hover {
@@ -147,6 +139,10 @@ textarea {
 
 .display_two:hover {
   border: 3px yellow solid;
+}
+
+.display_two:focus {
+  border: 3px red solid;
 }
 
 .image-box {
