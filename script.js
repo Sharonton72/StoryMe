@@ -14,7 +14,7 @@ function formSection() {
 
 // returns a new form section if user clicks plus_button
 function newForm() {
-  document.getElementById("form_section").style.height = "500vh";
+  document.getElementById("form_section").style.height = "594px";
 }
 console.log("b");
 
