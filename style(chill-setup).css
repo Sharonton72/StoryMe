@@ -99,3 +99,10 @@ form {
   margin: 0 100px;
 }   
 
+.form-div {
+  margin: 50px;
+}
+
+textarea {
+  width: 80%;
+}
