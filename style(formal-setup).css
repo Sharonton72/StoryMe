@@ -61,12 +61,17 @@ p {
 
 /* chill set-up */
 
+
 form {
   margin: 50px;
   padding: 50px;
   text-align: center;
   border-radius: 10px;
   background: #635e3c;
+}
+
+#form-section {
+  height: 100vh;
 }
 
 .img {

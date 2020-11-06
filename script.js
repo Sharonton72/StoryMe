@@ -3,6 +3,18 @@
 /* if user wants to add more text, add form*/
 let display_one = document.getElementById("display_one");
 let display_two = document.getElementById("display_two");
+let form_section = document.getElementById("form_section");
+let button_plus = document.getElementById("button_plus");
 
 // prints "hi" in the browser's dev tools console
+function formSection {
+  
+}
+
+// returns a new form section if user clicks plus_button
+function newForm() {
+  if(button_plus) {
+    formSection();
+  }
+}
 console.log("hi");
