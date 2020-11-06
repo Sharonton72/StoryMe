@@ -128,6 +128,10 @@ textarea {
   border: 3px yellow solid;
 }
 
+.display_one:focus {
+  border: 3px yellow solid;
+}
+
 .display_two {
   border: 3px white solid;
   border-radius: 4px;
