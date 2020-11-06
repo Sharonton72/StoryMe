@@ -112,7 +112,7 @@ textarea {
   display: grid;
   justify-content: center;
   grid-template-columns: 300px 300px;
-  grid-gap: 100px;
+  grid-gap: 20px;
   align-items: center;
   margin: 50px 50px;
   padding: 10px;
@@ -124,7 +124,20 @@ textarea {
   border-radius: 4px;
 }
 
-.display-two {
+.display_one:hover {
+  border: 3px yellow solid;
+}
+
+.display_two {
   border: 3px white solid;
   border-radius: 4px;
+}
+
+.display_two:hover {
+  border: 3px yellow solid;
+}
+
+.image-box {
+  width: 100%;
+  height: 200px;
 }
