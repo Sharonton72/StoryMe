@@ -86,8 +86,8 @@ p {
 /* chill set-up */
 
 form {
-  margin: 40px;
-  padding: 15px;
+  margin: 50px;
+  padding: 50px;
   text-align: center;
   border-radius: 10px;
   background: #a89e5d;
@@ -97,6 +97,5 @@ form {
   font-size: 16px;
   color: white;
   font-family: Playfair Display, sans-serif;
-  text-align: center;
-  margin: 0 500px;
+  margin: 0 100px;
 }
