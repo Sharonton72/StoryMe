@@ -7,14 +7,15 @@ let form_section = document.getElementById("form_section");
 let button_plus = document.getElementById("button_plus");
 
 // prints "hi" in the browser's dev tools console
-function formSection {
-  
+function formSection() {
+  let a = form_section;
+  a += 100;
 }
 
 // returns a new form section if user clicks plus_button
-function newForm() {
+function newForm(c) {
   if(button_plus) {
-    formSection();
+    formSection(c);
   }
 }
-console.log("hi");
+console.log("b");
