@@ -8,36 +8,49 @@
     <title>StoryMe</title>
     
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style(theme).css">
+    <link rel="stylesheet" href="/style(formal-setup).css">
     
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
   <body>
+   <body>
     
-    <h1>Theme</h1>
+    <h1>Create your message</h1>
     
-    <p class = "description">
-      Pick a theme that suits your message:
-    </p>
-    
-    <div class = "flex-box">
-      <div class = "box-chill">
-        <img class = "box-image" src = "https://i.pinimg.com/originals/b1/03/37/b103377af2e90a98aeb4a5365a79781d.png" alt="ambient">
-        <p class = "box-title">
-          Chill
-        </p>
-        <a href="/index(chill-setup).html" class="button">Start</a>
-      </div>
+    <form action="/action_page.php">
+  <label class="img">Select image:</label>
+  <input type="file" id="img" name="img" accept="image/*">
       
-      <div class = "box-formal">
-        <img class = "box-image" src="https://i.pinimg.com/originals/62/54/47/625447631334dd849794a857885ba4a2.png" alt="formal">
-        <p class = "box-title">
-          Formal
-        </p>
-        <a href="#" class="button">Start</a>
+  <div class="form-div">
+  <p>Please write down your message.</p>
+  <textarea id="explanation" class="input-textarea" name="explanation" placeholder="Please describe in here."></textarea>
+</div>
+      
+  <div class="form-div">
+    <p>
+      Choose how you will like to display your message.
+    </p>
+    <div class="flex-container">
+      <div class="display_one">
+        <img class="image-box" src="https://i.pinimg.com/originals/b7/60/70/b76070ceeea32369b74007c6f72f1181.png" alt="display_one" id="display_one">
+      </div>
+      <div class="display_two">
+        <img class="image-box" src="https://i.pinimg.com/originals/9d/2b/ad/9d2bad7fa3fd8f52230fcc1c9420046f.png" alt="display_two" id="display_two">
       </div>
     </div>
+      </div>
+      
+      <div class="form-div">
+      <p>
+        Do you want to add one more message? Please ignore button if you do NOT wish to do so.
+      </p>
+        <div class="button_plus">
+          +
+        </div>
+      </div>
+      <a href="#" class="button">Submit</a>
+    </form>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
