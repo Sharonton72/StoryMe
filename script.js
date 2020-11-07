@@ -42,6 +42,6 @@ function showSlides(n) {
 }
 
 function submitButton() {
-  var x = document.getElementById("explanation");
-  
+  var x = document.getElementById("explanation").value;
+  document.getElementById("demo").innerHTML = x;
 }
