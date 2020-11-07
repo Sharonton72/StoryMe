@@ -14,3 +14,11 @@ function newForm() {
 }
 console.log("b");
 
+var slideIndex= 1;
+showSlides(slideIndex);
+
+function showSlides(n) {
+  var i;
+  var slides = document.
+}
+

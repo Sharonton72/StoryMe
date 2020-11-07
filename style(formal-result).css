@@ -92,6 +92,12 @@ p {
   font-family: Playfair Display, sans-serif;
 }
 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;

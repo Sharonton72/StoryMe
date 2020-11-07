@@ -85,6 +85,10 @@ p {
 
 .message_result {
   font-size: 25px;
-  font-family: Playfair Display, sans-serif;
-  
+  font-family: Playfair Display, sans-serif; 
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
