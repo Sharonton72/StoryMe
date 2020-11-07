@@ -19,6 +19,16 @@ showSlides(slideIndex);
 
 function showSlides(n) {
   var i;
-  var slides = document.
+  var slides = document.getElementByClassName("mySlides");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  
+  for (i = 0; i < slides.length; i++) {
+    
+  }
 }
 
