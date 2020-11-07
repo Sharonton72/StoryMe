@@ -41,7 +41,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
 }
 
+
+
+/* textarea */
 function submitButton() {
   var x = document.getElementById("explanation").value;
   document.getElementById("demo").innerHTML = x;
 }
+console.log("wok");
+
