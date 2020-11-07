@@ -41,3 +41,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
 }
 
+function submitButton() {
+  var x = document.getElementById("explanation");
+  
+}
